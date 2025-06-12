@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Orbitron:wght@400..900&display=swap" rel="stylesheet');
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(ellipse 90% 80% at 50% 100%, #7C1DB7 10%, #000000 70%); 
+}
+
+/* ==================================================================\\DEBUT DU HEADER//============================================================== */
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh;
+}
+
+#logo{
+  width: 18rem;
+}
+
+.bouton_header{
+  align-content: center;
+}
+
+
+.bouton{
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  background-color:black ;
+  border: solid #ae40f2 1.7px ;
+  border-radius: 100px;
+  color: white;
+  text-decoration: none;
+  padding: 1vh 2vw 1vh 2vw;  
+  margin: 0 1vw 0 1vw;
+  transition: 1s;   
+}
+
+.bouton:hover{
+  color: black;
+  box-shadow: 0px 0px 20px white;
+  border: solid #dac5e8 1.7px ;
+  background-color: rgb(198, 29, 232);
+  transition: 1s;
+}
+
+@media(max-width:400px){
+    .bouton{
+        font-size:1.1rem;
+    }
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 1440px) {
+  html {
+    zoom: 1.5;
+  }
+}
+
+@media (min-width: 2560px) {
+  html {
+    zoom: 1.7;
+  }
+}
+
+@media (min-width: 3860px) {
+  html {
+    zoom: 2.5;
+  }
+}
+
+@media(max-width:1000px){
+
+  #logo{
+    width: 12rem;
+  }
+}
+
+/* ==================================================================\\FIN DU HEADER//============================================================== */
+
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media(max-width:600px){
+    main{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Gruppo", sans-serif;
+    color: white;
+}
+
+
+
+article{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media(max-width:600px){
+    article{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  border: solid #ae40f2 1.7px ;
+  box-shadow: 0px 0px 20px white;
+  border-radius: 15px;
+  margin: 2vw 5vh 2vw 4vh;
+  padding: 1vh 1vw 1vh 1vw;
+}
+
+@media(max-width:600px){
+    section{
+      width: 50vw;
+        margin: 2vh;
+    }
+}
+
+h2{
+    font-family: "Gruppo", sans-serif;
+    color:white;
+}
+
+p{
+  color: white;
+  font-family: "Gruppo", sans-serif;
+  font-size: small;
+  padding: 1vw;
+}
+
+.bouton2{
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  background-color:black ;
+  border: solid #ae40f2 1.7px ;
+  border-radius: 100px;
+  color: white;
+  text-decoration: none;
+  padding: 1vh 2vw 1vh 2vw;  
+  margin: 2vh;
+  transition: 1s;   
+}
+
+.bouton2:hover{
+  color: black;
+  box-shadow: 0px 0px 20px white;
+  border: solid #dac5e8 1.7px ;
+  background-color: rgb(198, 29, 232);
+  transition: 1s;
+}
+
+.bouton3{
+  width: 20vw;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  align-self: center;
+  background-color:black ;
+  border: solid #ae40f2 1.7px ;
+  border-radius: 100px;
+  color: white;
+  text-decoration: none;
+  padding: 1vh 2vw 1vh 2vw;  
+  margin: 3vh;
+  transition: 1s;   
+}
+
+.bouton3:hover{
+  color: black;
+  box-shadow: 0px 0px 20px white;
+  border: solid #dac5e8 1.7px ;
+  background-color: rgb(198, 29, 232);
+  transition: 1s;
+}

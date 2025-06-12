@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Orbitron:wght@400..900&display=swap" rel="stylesheet');
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(ellipse 90% 80% at 50% 100%, #7C1DB7 10%, #000000 70%); 
+  height: 70vh; 
+}
+@media(max-width:1450px){
+    body{
+        height: 100vh;
+    }
+}
+
+/* ==================================================================\\DEBUT DU HEADER//============================================================== */
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh;
+}
+
+#logo{
+  width: 18rem;
+}
+
+.bouton_header{
+  align-content: center;
+}
+
+
+.bouton{
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  background-color:black ;
+  border: solid #ae40f2 1.7px ;
+  border-radius: 100px;
+  color: white;
+  text-decoration: none;
+  padding: 1vh 2vw 1vh 2vw;  
+  margin: 0 1vw 0 1vw;
+  transition: 1s;   
+}
+
+.bouton:hover{
+  color: black;
+  box-shadow: 0px 0px 20px white;
+  border: solid #dac5e8 1.7px ;
+  background-color: rgb(198, 29, 232);
+  transition: 1s;
+}
+
+@media(max-width:400px){
+    .bouton{
+        font-size:1rem;
+    }
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 1440px) {
+  html {
+    zoom: 1.5;
+  }
+}
+
+@media (min-width: 2560px) {
+  html {
+    zoom: 1.7;
+  }
+}
+
+@media (min-width: 3860px) {
+  html {
+    zoom: 2.5;
+  }
+}
+
+@media(max-width:1000px){
+
+  #logo{
+    width: 12rem;
+  }
+}
+
+/* ==================================================================\\FIN DU HEADER//============================================================== */
+
+main{
+    display: flex;
+    flex-direction: column;  
+}
+
+.titre{
+    text-align: center;
+    margin-top: 7vh;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Gruppo", sans-serif;
+    color: white;
+}
+
+h2{
+    font-family: "Gruppo", sans-serif;
+    color:white;
+    padding: 1vw;
+}
+
+.info{
+   display: flex;
+   justify-content: center;
+   margin-top: 7vh;  
+}
+
+.bouton2{
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    background-color:black ;
+    border: solid #ae40f2 1.7px ;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+    padding: 1vh 2vw 1vh 2vw;  
+    margin: 0 1vw 0 1vw;
+    transition: 1s;   
+
+    p{
+        color: #9438ce;
+        transition: 1s;
+    }
+  }
+
+  .bouton2:hover{
+    color: black;
+    box-shadow: 0px 0px 20px white;
+    border: solid #dac5e8 1.7px ;
+    background-color: rgb(198, 29, 232);
+    transition: 1s;
+
+    p{
+        color: #000000;
+        transition: 1s;
+    }
+  }
+
+
+@media(max-width:650px){
+ 
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bouton2{
+        font-family: "Orbitron", sans-serif;
+        font-size: 1rem;
+        text-align: center;
+        width: 50vw;
+        background-color:black ;
+        border: solid #9438ce 2px ;
+        border-radius: 100px;
+        color: white;
+        text-decoration: none;
+        margin: 1vh;
+        padding: 1.2vw;
+    }
+}
+

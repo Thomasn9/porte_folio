@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Orbitron:wght@400..900&display=swap" rel="stylesheet');
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(ellipse 90% 80% at 50% 100%, #7C1DB7 10%, #000000 70%); 
+}
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh;
+}
+
+#logo{
+  width: 18rem;
+}
+
+.bouton_header{
+  align-content: center;
+}
+
+.bouton{
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  background-color:black ;
+  border: solid #ae40f2 1.7px ;
+  border-radius: 100px;
+  color: white;
+  text-decoration: none;
+  padding: 1vh 2vw 1vh 2vw;  
+  margin: 0 1vw 0 1vw;
+  transition: 1s;   
+}
+
+.bouton:hover{
+  color: black;
+  box-shadow: 0px 0px 20px white;
+  border: solid #dac5e8 1.7px ;
+  background-color: rgb(198, 29, 232);
+  transition: 1s;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 1440px) {
+  html {
+    zoom: 1.5;
+  }
+}
+
+@media (min-width: 2560px) {
+  html {
+    zoom: 1.7;
+  }
+}
+
+@media (min-width: 3860px) {
+  html {
+    zoom: 2.5;
+  }
+}
+
+
+.titre_page {
+  text-align: center;
+  font-size: x-large;
+  font-family: "Gruppo", sans-serif;
+  color: white;
+}
+
+#tranding {
+  padding: 4rem 0;
+}
+
+@media (max-width:1440px) {
+  #tranding {
+    padding: 7rem 0;
+  }
+}
+
+#tranding .tranding-slider {
+  height: 40rem;
+  padding: 2rem 0;
+  position: relative;
+}
+
+@media (max-width:500px) {
+  #tranding .tranding-slider {
+    height: 45rem;
+  }
+}
+
+.tranding-slide {
+  width: 27rem;
+  height: 30rem;
+  position: relative;
+}
+
+@media (max-width:500px) {
+  .tranding-slide {
+    width: 28rem !important;
+    height: 36rem !important;
+  }
+  .tranding-slide .tranding-slide-img img {
+    width: 28rem !important;
+    height: 36rem !important;
+  }
+}
+
+.tranding-slide .tranding-slide-img img {
+  width: 27rem;
+  height: 30rem;
+  border: solid #ae40f2 3px ;
+  border-radius: 2rem;
+  object-fit: cover;
+  box-shadow: 0px 0px 20px white;
+}
+
+
+.tranding-slide .tranding-slide-content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.tranding-slide-content .tranding-slide-content-bottom {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+
+.explication{
+  font-family: "Gruppo", sans-serif;
+  font-size: 1.5rem;
+  margin: 1%;
+  color: rgb(255, 255, 255);
+}
+
+
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none;
+}
+
+.tranding-slider-control {
+  position: relative;
+  bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tranding-slider-control .swiper-button-next {
+  left: 58% !important;
+  transform: translateX(-58%) !important;
+}
+
+@media (max-width:990px) {
+  .tranding-slider-control .swiper-button-next {
+    left: 70% !important;
+    transform: translateX(-70%) !important;
+  }
+}
+
+@media (max-width:450px) {
+  .tranding-slider-control .swiper-button-next {
+    left: 80% !important;
+    transform: translateX(-80%) !important;
+  }
+}
+
+@media (max-width:990px) {
+  .tranding-slider-control .swiper-button-prev {
+    left: 30% !important;
+    transform: translateX(-30%) !important;
+  }
+}
+
+@media (max-width:450px) {
+  .tranding-slider-control .swiper-button-prev {
+    left: 20% !important;
+    transform: translateX(-20%) !important;
+  }
+}
+
+.tranding-slider-control .slider-arrow {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  left: 42%;
+  transform: translateX(-42%);
+}
+
+.tranding-slider-control .slider-arrow ion-icon {
+  font-size: 2rem;
+  color: white;
+}
+
+.tranding-slider-control .slider-arrow::after {
+  content: '';
+}
+
+.tranding-slider-control .swiper-pagination {
+  position: relative;
+  width: 15rem;
+}
+
+.tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
+  background-color: #de2bef;
+}
+
+.tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
+  color: white;
+}
+
+#bloc_cv{
+  display: flex;
+  justify-content: center;
+}
+
+#cv{
+  width: 30vw;
+  margin: 3vh;
+}
+
+
+@media(max-width:1000px){
+
+  #logo{
+    width: 12rem;
+  }
+
+  #cv{
+    width: 90vw;
+  }
+}
