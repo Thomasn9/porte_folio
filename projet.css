@@ -47,6 +47,16 @@ header{
   transition: 1s;
 }
 
+#lesProjets{
+  display: flex;
+}
+
+@media(max-width:734px){
+    #lesProjets{
+        flex-wrap: wrap;
+    }
+}
+
 @media(max-width:400px){
     .bouton{
         font-size:1.1rem;
